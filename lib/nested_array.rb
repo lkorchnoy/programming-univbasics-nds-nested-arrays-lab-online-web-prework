@@ -31,9 +31,8 @@ puts array_literal_matrix.sort
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix = ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
-  row = [0, 1, 2, 3, 4]
-  column = [0]
+  matrix = [row] [column]
+  matrix_lookup = []
   
 end
 
